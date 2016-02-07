@@ -1,0 +1,598 @@
+body {
+	background:#5B5756 !important;
+}
+
+.ps-room.ps-room-light {
+	background:rgba(0,0,0,0);
+	border-left:1px solid #171616;
+}
+
+.ps-room.ps-room-light.scrollable {
+	background:rgba(0,0,0,0.2) url("http://vignette3.wikia.nocookie.net/adventuretimewithfinnandjake/images/4/45/Victini.png/revision/latest?cb=20121121122510") right no-repeat;
+	color:#FFFFFF;
+}
+
+.ps-overlay {
+	background:rgba(0,0,0,0.3);
+}
+
+.mainmenuwrapper {
+	background:url("http: //40.media.tumblr.com/tumblr_m2s5dbRDNZ1qjm79qo1_500.jpg")
+}
+
+/*****************************/
+/* Batle CSS*/
+/****************************/
+
+.backdrop {
+	background:url(http: //orig14.deviantart.net/9558/f/2014/339/d/a/or_as_vs_maxie_final_battle_background_by_phoenixoflight92-d88uddt.png) !important;
+}
+
+/*****************************/
+/* Header CSS */
+/****************************/
+
+.maintabbarbottom {
+	background:linear-gradient(to bottom,rgba(0,0,0,.4) 0%,rgba(0,0,0,0) 100%);
+	border:none;
+	box-shadow:none;
+	z-index:2;
+}
+
+.header {
+	height:56px;
+	background:rgba(0,0,0,0.65) !important;
+}
+
+.userbar .username {
+	color:#000;
+	text-shadow:1px 1px 0px #000,1px -1px 0px #000,-1px 1px 0px #000,-1px -1px 0px #000;
+}
+
+.tabbar li:first-child a.button {
+	border-top-left-radius:4px;
+}
+
+.tabbar.maintabbar {
+	top:0px;
+	height:56px;
+	margin-left:160px;
+}
+
+.tabbar a.button.cur,.tabbar a.button.cur:hover {
+	height:30px;
+	top:8px;
+	background:#EE834D;
+	color:#303030;
+	border:none;
+	box-shadow:none;
+}
+
+.tabbar a.button,.tabbar a.button:hover {
+	height:31px;
+	margin-left:5px;
+	top:8px;
+	border:none;
+	background:#F26F2E;
+	color:#171616;
+	text-shadow:none;
+	box-shadow:0px 0px 5px #000;
+	border-radius:4px;
+}
+
+.closebutton,.minimizebutton {
+	color:#303030;
+}
+
+.tabbar a.button.subtle-notifying {
+	color:#171616;
+}
+
+.tabbar a.button.subtle-notifying:hover {
+	color:#000;
+	text-shadow:0px 0px 1px #EE834D;
+}
+
+.tabbar a.button.subtle-notifying .icon-comment-alt::before {
+	content:"";
+}
+
+.tabbar .closebutton,.tabbar a.cur+.closebutton {
+	top: 10px;
+}
+
+/*****************************/
+/** Header CSS **/
+/****************************/
+
+.ps-room {
+	border-left:none;
+}
+
+.menugroup {
+	background:rgba(0,0,0,0.2);
+	border:3px solid #171616;
+}
+
+.mainmenu .menugroup:nth-child(1) .button,.mainmenu .menugroup:nth-child(2) p:nth-child(1) .button,.mainmenu .menugroup:nth-child(2) p:nth-child(2) .button,.mainmenu .menugroup:nth-child(2) p:nth-child(3) .button,.mainmenu .menugroup:nth-child(3) p:nth-child(1) .button,.mainmenu .menugroup:nth-child(3) p:nth-child(2) .button,.menugroup .button {
+	background:#EE834D url("http://i.imgur.com/yKLmpsT.png?1") center left no-repeat !important;
+	box-shadow:0px 0px 5px #171616 !important;
+	color:#171616 !important;
+	border:1px solid #171616 !important;
+}
+
+.mainmenu .menugroup:nth-child(1) .button:hover,.mainmenu .menugroup:nth-child(2) p:nth-child(1) .button:hover,.mainmenu .menugroup:nth-child(2) p:nth-child(2) .button:hover,.mainmenu .menugroup:nth-child(2) p:nth-child(3) .button:hover,.mainmenu .menugroup:nth-child(3) p:nth-child(1) .button:hover,.mainmenu .menugroup:nth-child(3) p:nth-child(2) .button:hover,.menugroup .button:hover {
+	border:1px solid #171616 !important;
+	background:#EE834D url("http://i.imgur.com/yKLmpsT.png?1") center left no-repeat !important;
+	color:#5B5756 !important;
+}
+
+.menugroup .button.disabled,.menugroup .button.disabled:hover {
+	box-shadow:none !important;
+	background-color:#EE834D !important;
+	border:1px solid #171616 !important;
+	color:#5B5756 !important;
+}
+
+.menugroup .select,.select {
+ 	background:#EE834D !important;
+ 	box-shadow:0px 0px 5px #171616 !important;
+ 	color:#171616 !important;
+ 	border:1px solid #171616 !important;
+}
+
+.menugroup .select:hover,.select:hover {
+	background:#EE834D !important;
+ 	color:#5B5756 !important;
+ 	border:1px solid #171616 !important;
+}
+
+.select::after {
+ 	color:#171616 !important;
+}
+
+.select:disabled,.select:disabled:hover {
+ 	border:1px solid #171616 !important;
+ 	background:rgba(232,146,103,0.6) !important;
+ 	box-shadow:none !important;
+}
+
+.mainmenufooter,.mainmenufooter a {
+ 	color:#BBE1E2;
+}
+
+.mainmenufooter a:hover {
+ 	color:#FFF;
+}
+
+.roomlist a.ilink,.roomcounters button {
+ 	background:rgba(0,0,0,0.55);
+	color:#EE834D;
+	box-shadow:0px 0px 5px #171616;
+	border:none;
+}
+
+.roomlist a.ilink:hover,.roomcounters button:hover {
+	background:rgba(0,0,0,0.75);
+	color:#EE834D;
+	border:none;
+}
+
+.roomlist a.ilink small {
+	color:#EEE;
+}
+
+.pm-window {
+	border-radius:4px;
+	box-shadow:0px 0px 3px #151515;
+}
+
+.pm-window h3,.pm-window h3:hover {
+	border-color:#171616;
+	color:#FFF;
+	background:rgba(0,0,0,0.65);
+	font-style:italic;
+}
+
+.pm-window.focused h3,.pm-window.focused h3:hover {
+	background:rgba(0,0,0,0.65);
+	border-color:#171616;
+	color:#BBE1E2;
+}
+
+.pm-window h3 .closebutton,.pm-window h3 .minimizebutton {
+	color:#EEE;
+}
+
+.pm-window h3 .closebutton:hover {
+	color:#FF7272;
+}
+
+.pm-window h3 .minimizebutton:hover {
+	color:#FFD172;
+}
+
+.pm-window h3 small {
+	color:#EEE;
+}
+
+.pm-log,.pm-window.focused .pm-log {
+	border-color:#171616;
+}
+.challenge {
+	border-color:#171616;
+	background:#EE834D;
+	color:#171616;
+}
+
+.pm-log-add,.pm-window.focused .pm-log-add {
+	border-color:#171616;
+	background:rgba(0,0,0,0.5);
+}
+
+.message-pm {
+	padding:0px 25px 0px 0px;
+	background:url("http://www.blastyak.net/img/mail.png") top right no-repeat;
+	color:#171616;
+}
+.closebutton:hover,.minimizebutton:hover {
+	color:#000;
+}
+.textbox,.textbox:hover {
+	border-color:#171616;
+	box-shadow:none;
+}
+
+.textbox:focus,	.textbox:focus:hover {
+	border:1px solid #171616;
+	box-shadow:0px 1px 2px #D2D2D2 inset,0px 0px 5px #EE834D;
+	background:none repeat scroll 0% 0% #FFF;
+}
+
+	button {
+		background:#171616;
+		color:#FFF;
+		border:1px solid #EE834D;
+		border-radius:4px;
+}
+	button[name="makeChallenge"],button[name="dismissChallenge"] {
+		border-color:#000;
+}
+	button[name="newTop"],button[name="edit"] {
+		margin-bottom: 1px;
+}
+
+/*****************************/
+/* Teambuilder CSS */
+/*****************************/
+
+.teamchartbox {
+	border-top:1px solid #171616;
+	background:#494645;
+}
+.setchart,.setchart-nickname {
+	background:#201E1E;
+	border:1px solid #EE834D;
+}
+.setchart label,.setchart-nickname label {
+	color:#FFF;
+}
+.setchart input,.setchart-nickname input,.statform input.inputform,.setchart input:hover,.setchart-nickname input:hover,.statform input.inputform:hover,.setdetails,.setdetails:hover,.setstats,.setstats:hover {
+	border:1px solid #EE834D;
+	background:#201E1E;
+	color:#F9F9F9;
+}
+
+.setdetails .detailcell {
+	border-color:#EE834D;
+}
+
+.setchart input:focus,.setchart-nickname input:focus,.statform input.inputform:focus {
+	border:1px solid #EE834D;
+	background:none repeat scroll 0% 0% #201E1E;
+}
+
+.setchart input.incomplete,	.utilichart .illegalcol em {
+	color:#D74F45;
+	border-color:#D74F45;
+}
+
+.setdetails:focus,.setstats:focus {
+	border:1px solid #EE834D;
+}
+
+.jslider .jslider-label {
+	color:#FFF;
+	opacity:0.6;
+}
+
+.jslider .jslider-value {
+	color:#000;
+}
+
+.teambuilder-results h3,.teambuilder-results .utilichart h3 {
+	background:#201E1E;
+	border-color:#EE834D;
+	color:#FFF;
+}
+
+.setstats .statrow-head em {
+	color:#DDD;
+}
+
+.teambar button {
+	border-color:#171616;
+	background:#201E1E;
+	color:#FFF;
+	overflow-x:hidden;
+}
+
+.teambar button:hover {
+	border-color:#171616;
+	background:#171616;
+}
+
+.teambar button:disabled,	.teambar button:disabled:hover {
+		border-color:#171616;
+		background:#201E1E;
+		color:#FFF;
+		opacity:0.8;
+}
+.setmenu {
+	top:3px;
+}
+
+.setmenu button:hover {
+	background:#201E1E;
+	border-color:#EE834D;
+}
+
+.teambuilder-results .firstresult a,.teambuilder-results .firstresult a:hover,	.teambuilder-results .result a:hover {
+	border-color:#EE834D;
+	background:#201E1E;
+}
+
+.utilichart b {
+	color:#EE834D;
+}
+
+.utilichart .movenamecol,.utilichart .namecol,.utilichart .pokemonnamecol {
+	color:#FFF;
+}
+
+.utilichart .movedesccol,.utilichart .labelcol em,.utilichart .widelabelcol em,.utilichart .pplabelcol em,.utilichart .statcol em,.utilichart .bstcol em,.utilichart .numcol {
+	color:#DDD;
+}
+
+.utilichart .labelcol,.utilichart .widelabelcol,.utilichart .pplabelcol,.utilichart .twoabilitycol,.utilichart .abilitycol,.utilichart .statcol,.utilichart .itemdesccol,	.utilichart .abilitydesccol {
+	color:#F9F9F9;
+}
+
+.teambuilder-clipboard-container {
+	border-color:#EE834D;
+}
+
+.teambuilder-clipboard-data,.teambuilder-clipboard-data:hover {
+	background:#201E1E;
+	border:1px solid #EE834D;
+}
+
+.teambuilder-clipboard-data .section {
+	border-right:1px solid #EE834D;
+}
+
+.utilichart .typecol img {
+	opacity:0.7;
+	margin-right: 1px;
+}
+
+/*****************************/
+/** Teambuilder CSS **/
+/*****************************/
+
+.chat-log {
+	border-bottom:1px solid #171616;
+	border-left:1px solid #171616;
+	background:rgba(242,247,250,0.925);
+}
+.chat-log-add {
+	border-top:1px solid #201E1E;
+	background:rgba(0,0,0,0.65);
+}
+
+.userlist {
+	border-right:1px solid #201E1E;
+	background:rgba(0,0,0,0.65);
+}
+
+.userlist li {
+	background-color:rgba(255,255,255,0) !important;
+}
+
+.userlist li button {
+	border-radius:0px;
+	text-shadow:1px 1px #000;
+}
+
+.userlist li em.group {
+	color:#AAA;
+}
+.userlist li button:hover {
+	background:rgba(23,22,22,0.5);
+}
+
+.userlist li {
+	color:#F9F9F9;
+	text-shadow:0px 0px 1px #000;
+	border-bottom:1px solid #171616;
+}
+
+.broadcast-red {
+	background:#D57575;
+	border:1px solid #985555;
+	color:#FFD7D7;
+	padding:5px 1px 3px 8px;
+	text-shadow:1px 1px 1px #985555;
+	font-family:helvetica,arial,sans-serif;
+	text-align:center;
+	font-style:normal;
+}
+
+.broadcast-green {
+	background:#578A54;
+	border:1px solid #375735;
+	padding:5px 1px 3px 8px;
+	color:#BEFFB9;
+	text-shadow:1px 1px 1px #375735;
+	font-family:helvetica,arial,sans-serif;
+	text-align:center;
+	font-style:normal;
+}
+
+.broadcast-blue {
+	background:#677992;
+	border:1px solid #414D5E;
+	padding:5px 1px 3px 8px;
+	color:#C1DAFF;
+	text-shadow:1px 1px 1px #414D5E;
+	font-family:helvetica,arial,sans-serif;
+	text-align:center;
+	font-style:normal;
+}
+
+.ps-popup {
+	background:#201E1E;
+	box-shadow:1px 1px 0px #101010 inset,-1px -1px 0px #121212 inset,0px 0px 3px #000;
+	border:1px solid #EE834D;
+	color:#DDD;
+	text-shadow:0px 0px 1px #000;
+	z-index:1000;
+}
+
+.ps-popup hr {
+	border:none;
+	border-bottom:1px solid #EEE;
+}
+
+.ps-popup a {
+	color:#EE834D;
+	text-shadow:0px 0px 3px #000;
+}
+
+.ps-popup a.ilink:hover {
+	color:#EE834D;
+}
+
+.popupmenu h3 {
+	color:#EE834D;
+	text-shadow:0px 0px 1px #000;
+}
+
+.popupmenu button {
+	color:#DDD;
+	overflow-x:hidden;
+	text-shadow:0px 0px 1px #000;
+}
+
+.popupmenu button.sel {
+	border-color:#171616;
+}
+
+.popupmenu button.sel:hover,.popupmenu button:hover {
+	border-color:#171616;
+	background:#171616;
+}
+
+p.or {
+	color:#CCC;
+}
+
+p.or::before,p.or::after {
+	border-bottom:1px solid #AAA;
+}
+
+.ps-popup p.error {
+	color:#EB5A5A;
+}
+
+.mainmenufooter a {
+	color:#FFF;
+}
+.mainmenufooter a:hover {
+	color: #BBE1E2;
+}
+
+/*****************************/
+/* Battle CSS */
+/****************************/
+
+.ps-room.ps-room-opaque {
+	background:#333;
+	color:#EEE;
+}
+
+.battle-log-add,.battle-log {
+	background:transparent;
+	border:1px solid #333;
+	color:#EEE;
+}
+
+.battle-log h2 {
+	background:transparent;
+	border:1px solid #EE834D;
+	border-right:none;
+	color:#EE834D;
+	box-shadow:0px 0px 3px #EE834D;
+}
+
+.battle-log .chat small {
+	color:#AAA !important;
+}
+
+.battle-log .chat em {
+	color:#DDD;
+}
+
+.battle-controls .whatdo {
+	color:#BBB;
+}
+
+.controls {
+	background:#333;
+}
+
+.message-throttle-notice,.message-error {
+	color:#EE834D;
+}
+
+.ps-room .battle-controls {
+	position:absolute;
+	top:440px;
+	left:0;
+	width: 640px;
+}
+
+/*****************************/
+/* Ladder CSS */
+/*****************************/
+.ladder table,.ladder td,.ladder th {
+		border:1px solid #EE834D;
+}
+	.ladder th {
+		background:rgba(0,0,0,0.8);
+}
+	.ladder table {
+		box-shadow:1px 1px 0px rgba(0,0,0,0.8) inset,0px 0px 3px #000;
+}
+	.ladder td {
+		background: rgba(0,0,0,0.7);
+}
+
+/*****************************/
+/** Ladder CSS **/
+/*****************************/
+
+.ps-room .battle-controls {
+	background:transparent !important;
+		top: 430px !important;
+}
